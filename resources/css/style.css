@@ -17,7 +17,7 @@
 /* sections */
 
 .section-video {
-    background-image: url('bgk-middle.png');
+    background-image: url('../img/bgk-middle.png');
     height: 550px;
     align-items: center;
     display: flex;
@@ -48,7 +48,7 @@
     width: 300px;
     padding: 20px;
     border: 1px  solid black;
-
+}
 /* ------------------------------------------------------------ */
 
 .section-contact {
