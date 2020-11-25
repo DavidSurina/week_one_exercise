@@ -195,6 +195,14 @@ body {
     color: #fff;
 }
 
+.footer__input:focus {
+    outline: none;
+}
+
+.footer__input::placeholder {
+    color: #fff;
+}
+
 .footer__button-box {
     width: 20%;
     height: 4rem;
