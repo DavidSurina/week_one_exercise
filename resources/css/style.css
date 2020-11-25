@@ -49,7 +49,7 @@
     padding: 20px;
     border: 1px  solid black;
 }
-/* ------------------------------------------------------------ */
+/* -----------------Section contact---------------------- */
 
 .section-contact {
     display: flex;
@@ -64,7 +64,7 @@
 .footer {
     display: flex;
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     margin: 0 auto;
     background-image: url("../img/bgk-footer.png"); 
     background-repeat: no-repeat;
@@ -122,16 +122,30 @@
 }
 
 .footer__tajam-desc,
-.footer__adress-wrapper,
+.footer__studio-content,
 .footer__newsletter-wrapper {
     width: 30%;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 /*---footer Content Description/Adress/Newsletter----*/
 
+.footer__studio-wrapper {
+    display: flex;
+    direction: column;
+}
+
+.footer__adress-logo {
+    height: 2rem;
+}
+
+.footer__phone-wrapper {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
