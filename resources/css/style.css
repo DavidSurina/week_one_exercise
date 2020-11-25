@@ -77,6 +77,8 @@ body {
 
 .footer__wrapper {
     width: 60%;
+    height: 90%;
+    padding-top: 1%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -123,15 +125,22 @@ body {
     flex-direction: row;
 }
 
+.footer__tajam-heading {
+    color: aqua;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
 .footer__tajam-logo-wrapper {
     margin-right: 3%;
+    padding-top: 3%;
 }
 
 .footer__tajam-desc,
 .footer__studio-content,
 .footer__newsletter-wrapper {
     width: 30%;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     display: flex;
     flex-direction: column;
     line-height: 1.6;
@@ -152,7 +161,7 @@ body {
 .footer__phone-wrapper {
     display: flex;
     flex-direction: row;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .footer__phone-logo {
@@ -187,6 +196,11 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 2rem;
+    transition: color .3s;
+}
+
+.footer__link:hover {
+    color: aqua;
 }
 
 .footer__copyright {
