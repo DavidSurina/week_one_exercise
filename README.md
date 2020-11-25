@@ -18,6 +18,24 @@
 ## Description
 some info here
 
+#### Header
+![Header](https://user-images.githubusercontent.com/22038252/100227979-4a7c8480-2f22-11eb-9caf-8e6718b876cb.png)
+#### section-hero
+![grafik](https://user-images.githubusercontent.com/22038252/100228036-5ff1ae80-2f22-11eb-961b-81041d0472c7.png)
+#### section-story
+![grafik](https://user-images.githubusercontent.com/22038252/100228072-697b1680-2f22-11eb-83ee-b449443503f0.png)
+#### section-video
+![grafik](https://user-images.githubusercontent.com/22038252/100228098-73047e80-2f22-11eb-8154-04a9361c2855.png)
+#### section-expertise
+![grafik](https://user-images.githubusercontent.com/22038252/100228120-7c8de680-2f22-11eb-8d84-75e85787914a.png)
+#### section-team
+![grafik](https://user-images.githubusercontent.com/22038252/100228139-84e62180-2f22-11eb-8c2d-4f99c52e2600.png)
+#### section-contact
+![grafik](https://user-images.githubusercontent.com/22038252/100228164-8e6f8980-2f22-11eb-80db-f4d68f8d0dd2.png)
+#### section-footer
+![grafik](https://user-images.githubusercontent.com/22038252/100228185-97605b00-2f22-11eb-8676-dd54659996fd.png)
+
+
 ### Technologies & Tools
 
 - HTML 5
