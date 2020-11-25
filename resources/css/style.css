@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 1920px;
+    font-size: 62.5%;
 }
 
 
@@ -47,6 +49,124 @@
     padding: 20px;
     border: 1px  solid black;
 
+/* ------------------------------------------------------------ */
+
+.section-contact {
+    display: flex;
+    width: 80%;
+    height: 80vh;
 }
 
-/* footer */
+/* -------------------------------------------------- */
+/*------------ FOOTER --------------------------------*/
+/* -------------------------------------------------- */
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto;
+    background-image: url("../img/bgk-footer.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.footer__wrapper {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*----- footer section Description & newsletter -----*/
+
+.footer__section-desc {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.footer__headings,
+.footer__desc-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__desc-content {
+    height: 60%;
+}
+
+.footer__headings {
+    height: 40%;
+}
+
+/*------- footer Headings -------------------------- */
+
+.footer__tajam-wrapper,
+.footer__heading-wrapper {
+    width: 30%;
+    align-items: center;
+    font-size: 3rem;
+    display: flex;
+}
+
+.footer__tajam-wrapper {
+    flex-direction: row;
+}
+
+.footer__tajam-desc,
+.footer__adress-wrapper,
+.footer__newsletter-wrapper {
+    width: 30%;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/*---footer Content Description/Adress/Newsletter----*/
+
+
+
+
+/*------- footer section Navigation and Copyright-----*/
+
+.footer__section-nav {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer__nav {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.footer__link-wrapper {
+    margin-right: 5%;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.footer__copyright {
+    width: 50%;
+    align-self: right;
+    text-align: end;
+    font-size: 2rem;
+}
