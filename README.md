@@ -1,4 +1,5 @@
-![grafik](image-url)
+![grafik](![grafik](https://user-images.githubusercontent.com/22038252/100191929-4e43e300-2ef1-11eb-85a6-cbb04d12272b.png)
+)
 
 # WBS Coding School  -  Team-Project 1
 
