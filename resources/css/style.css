@@ -115,7 +115,7 @@ body {
 .footer__heading-wrapper {
     width: 30%;
     align-items: center;
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
 }
 
@@ -123,14 +123,18 @@ body {
     flex-direction: row;
 }
 
+.footer__tajam-logo-wrapper {
+    margin-right: 3%;
+}
+
 .footer__tajam-desc,
 .footer__studio-content,
 .footer__newsletter-wrapper {
     width: 30%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    line-height: 1.6;
 }
 
 /*---footer Content Description/Adress/Newsletter----*/
@@ -142,14 +146,19 @@ body {
 
 .footer__adress-logo {
     height: 2rem;
+    margin-right: 4%;
 }
 
 .footer__phone-wrapper {
     display: flex;
     flex-direction: row;
+    margin-top: 3%;
 }
 
-
+.footer__phone-logo {
+    height: 2rem;
+    margin-right: 2%;
+}
 
 /*------- footer section Navigation and Copyright-----*/
 
