@@ -4,11 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 1920px;
-    font-size: 62.5%;
 }
-
-
-
+html {
+    font-size: 62.5%; 
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
 /* header */
 
