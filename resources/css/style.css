@@ -37,11 +37,76 @@ suggestions here: */
 
 /* header */
 
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem, 3rem;
+    height: 1rem, 1rem; 
+    background-color: #2e2ef8;
+}
 
+header .header-logo{
+    display: flex;
+    width: 20%;
+
+}
+
+.header li {
+    display: inline;
+    padding-right: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header-logo-letters{
+    color: aqua;
+    flex-direction: row;
+}
 
 /* ----------------- Sections ---------------------- */
+.home-header{
+    color: aqua
+}
+/* sections */
 
+/* -----------------Section hero---------------------- */
+
+.section-hero {
+    display: flex;
+    background-image: url('../img/bgk-header.png');
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    height: 65vh;
+}
+
+.header.logo
+
+.section-hero h1 {
+padding-top: 2rem;
+font-size: 2rem;
+font-weight: bold;
+color: #fff;
+}
+
+.section-hero p{
+letter-spacing: .5rem;
+justify-content: center;
+color: #fff;
+}
+
+.btn-section-hero {
+    font-size: .4rem;
+    font-weight: lighter;
+    border-radius: 0em;
+    color: aqua;
+}
+
+/* -----------------Section video---------------------- */
 .section-video {
+
+    background-repeat: no-repeat;
     background-image: url('../img/bgk-middle.png');
     height: 550px;
     align-items: center;
@@ -56,23 +121,93 @@ suggestions here: */
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold
-    
+}
+
+.section-video p {
+    font-size: 1.5em;;
 }
 
 .section-expertise {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 5em auto;
+}
+
+p.times {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+}
+
+.section-expertise h2 {
+    margin-bottom: .3em;
+    font-family: Times New Roman;
+    font-size: 2em;
+}
+
+#order-box-margin {
+    margin-top: 3em;
 }
 
 .box-order {
+    
+    height: auto;
     display: flex;
     justify-content: center;
-   
 }
 
 .box {
-    width: 300px;
+    
+    text-align: center;
+    width: 33%;
     padding: 20px;
-    border: 1px  solid black;
+    border: 1px  solid grey;
+}
+
+.box img {
+    margin: 1.5em 0;
+}
+
+.box h5 {
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+.box p {
+    font-size: 1.2em;
+    color: gray;
+}
+
+#box1 {
+    border: ;
+}
+
+#box2 {
+    
+}
+
+#box3 {
+    
+}
+
+#box4 {
+    
+}
+
+#box5 {
+    
+}
+
+#box6 {
+    
+}
+
+/* ----------------- Section Team sb ---------------------- */
+.section-default {
+    padding-top: 85px;
+padding-bottom: 105px;
+overflow: hidden;
 }
 
 /* ----------------- Section Team sb ---------------------- */
@@ -155,8 +290,93 @@ overflow: hidden;
 
 .section-contact {
     display: flex;
+    margin: 0 auto;
+    padding: 17rem 0;
+    width: 60%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-contact__headings,
+.section-contact__content-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* ------------Section contact-headings------------------ */
+
+.section-contact__heading {
+    width: 45%;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+/* ------------Section contact-form------------------ */
+
+.section-contact__form-wrapper {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-contact__input,
+.section-contact__input-ym {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.section-contact__input,
+.section-contact__input-ym:focus {
+    outline: none;
+}
+
+.section-contact__input-ym {
+    resize: none;
+}
+
+.section-contact__button {
+    width: 10rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: aqua;
+    border: 1px solid aqua;
+    font-weight: bold;
+    transition: background .3s, color .3s;
+}
+
+.section-contact__button:hover {
+    background: aqua;
+    color: #fff;
+}
+
+/* ------------Section contact-clients-----------------*/
+
+.section-contact__our-clients {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-contact__image-column {
+    width: 40%;
+}
+
+.section-contact__image-wrapper {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.section-contact__image {
     width: 80%;
-    height: 80vh;
 }
 
 /* -------------------------------------------------- */
@@ -283,6 +503,11 @@ overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: border .2s;
+}
+
+.footer__input-box:hover {
+    border: 1px solid aqua;
 }
 
 .footer__input {

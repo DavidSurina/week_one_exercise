@@ -17,33 +17,28 @@
 
 <body>
      <!-- Header -->
+       <!-- Navigation Section -->
     <header>
-        <div class="header-logo">
-            <img src="./resources/img/logo.svg"/> 
-            <h1>tajam</h1>    
-        </div>
-    <!-- Navigation Section -->
-    <div></div>
-    <nav>
+        <nav class="header">
+            <img class="header-logo" src="./resources/img/logo.svg"/> 
+           <span class="header-logo-letters">tajam</span> 
+   
               <ul>
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>EXPERTISE</li>
-                <li>TEAMS</li> 
-                <li>WORKS</li>
-                <li>PEOPLE SAY</li>
-                <li>CONTACT</li>
+                  <span class="home-header"></span>
+                <li><a href="HOME">HOME</span></a>><li>
+                <li><a href="ABOUT"></a>ABOUT</li>
+                <li><a href="EXPERTISE"></a>EXPERTISE</li>
+                <li><a href="TEAMS"></a>TEAMS</li> 
+                <li><a href="WORKS"></a>WORKS</li>
+                <li><a href="PEOPLE SAY"></a>PEOPLE SAY</li>
+                <li><a href="CONTACT"></a>CONTACT</li>
               </ul>
             </nav>
         </header>
     
     <main>
         <section class="section-hero">
-        <div class="section-hero.forest">
-        <div class="section-hero.container">
             <h1>We Are Awesome Creative Agency</h1>
-            </div>
-        </div>
         <div>
         <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis adipisci 
             <br>
@@ -59,26 +54,32 @@
         
         </section><!-- sb Story END -->
         <section class="section-video">
-            <img src="resources/css/play.png" alt="play">
+            <img src="resources/img/play.png" alt="play">
             <p>WATCH OUR STORY</p>
         </section>
 
         <section class="section-expertise">
             <h2>EXPERTISE</h2>
-            <p>Lorem ipsum dolor sit amit proin gramida nibh vel velit.</p>
+            <p class="times">Lorem ipsum dolor sit amit proin gramida nibh vel velit.</p>
+            <p>_____</p>
+
             <div>
-                <div  class="box-order">
-                    <div class="box"><img src="resources/img/screen.png"><h5>WEB DESIGN & DEVELOPMENT</h5><p>Lorem ipsum dolor sit amet, 
-                        consetetur sadipscing elitr, sed diam nonumy eirmod tempor ...</p>
+                <div  class="box-order" id="order-box-margin">
+                    <div class="box" id="box1"><img src="resources/img/screen.png"><h5>WEB DESIGN & DEVELOPMENT</h5><p>This Photoshop version of Lorem Ipsum. 
+                        Proin gravide nibh vel velit auctor aliquet Aenean.</p>
                     </div>
-                    <div class="box"><img src="resources/img/pen.png"><h5>BRANDING IDENTIY</h5><p>Box 2</p></div>
-                    <div class="box"><img src="resources/img/mobile.png"><h5>MOBILE APP</h5><p>Box 3</p></div>
+                    <div class="box" id="box2"><img src="resources/img/pen.png"><h5>BRANDING IDENTIY</h5><p>This Photoshop version of Lorem Ipsum. 
+                        Proin gravide nibh vel velit auctor aliquet Aenean.</p></div>
+                    <div class="box" id="box3"><img src="resources/img/mobile.png"><h5>MOBILE APP</h5><p>This Photoshop version of Lorem Ipsum. 
+                        Proin gravide nibh vel velit auctor aliquet Aenean.</p></div>
                 </div>
                 <div class="box-order">
-                    <div class="box"><img src="resources/img/graph.png"><h5>SEARCH ENGINE OPTIMIZATION</h5><p>Lorem ipsum dolor sit amet, 
-                        consetetur sadipscing elitr, sed diam nonumy eirmod tempor ...</p></div>
-                    <div class="box"><img src="resources/img/gameboy.png"><h5>GAME DEVELOPMENT</h5><p>Box 5</p></div>
-                    <div class="box"><img src="resources/img/heart.png"><h5>MACE WITH LOVE</h5><p>Box 6</p></div>
+                    <div class="box" id="box4"><img src="resources/img/graph.png"><h5>SEARCH ENGINE OPTIMIZATION</h5><p>This Photoshop version of Lorem Ipsum. 
+                        Proin gravide nibh vel velit auctor aliquet Aenean.</p></div>
+                    <div class="box" id="box5"><img src="resources/img/gameboy.png"><h5>GAME DEVELOPMENT</h5><p>This Photoshop version of Lorem Ipsum. 
+                        Proin gravide nibh vel velit auctor aliquet Aenean.</p></div>
+                    <div class="box" id="box6"><img src="resources/img/heart.png"><h5>MACE WITH LOVE</h5><p>This Photoshop version of Lorem Ipsum. 
+                        Proin gravide nibh vel velit auctor aliquet Aenean.</p></div>
                 </div>
 
             </div>
@@ -143,27 +144,27 @@
                 <h2 class="section-contact__heading">OUR HAPPY CLIENTS</h2>
             </div>
             <div class="section-contact__content-box">
-                <div class="section-contact__form-wrapper">
+                <form class="section-contact__form-wrapper">
                     <input class="section-contact__input" type="text" placeholder="Name" size="30" maxlength="50">
                     <input class="section-contact__input" type="email" placeholder="Email" size="30" maxlength="50">
-                    <input class="section-contact__input" type="text" placeholder="subject" size="30" maxlength="50">
-                    <input class="section-contact__input-ym" type="text" placeholder="Your message" size="30" maxlength="500">
-                    <button type="submit">Submit</button>
-                </div>
+                    <input class="section-contact__input" type="text" placeholder="Subject" size="30" maxlength="50">
+                    <textarea class="section-contact__input-ym" type="text" placeholder="Your message" size="30" cols="50" rows="7" maxlength="500"></textarea>
+                    <button class="section-contact__button" type="submit">SUBMIT</button>
+                </form>
                 <div class="section-contact__our-clients">
-                    <ul>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                    <ul class="section-contact__image-column">
+                        <div class="section-contact__image-wrapper"><img class="section-contact__image" src="resources/img/Zara_Logo.png"></div>
+                        <div class="section-contact__image-wrapper"><img class="section-contact__image" src="resources/img/1280px-Barneys_New_York_Logo.png"></div>
+                        <div class="section-contact__image-wrapper"><img class="section-contact__image" src="resources/img/Calvin_klein_logo.png"></div>
+                        <div class="section-contact__image-wrapper"><img class="section-contact__image" src="resources/img/Converse_logo.png"></div>
+                        <div class="section-contact__image-wrapper"><img class="section-contact__image" src="resources/img/1280px-Levi_s_logo.png"></div>
                     </ul>
-                    <ul>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                    <ul class="section-contact__image-column">
+                        <div class="section-contact__image-wrapper"><img class="section-contact__image" src="resources/img/Logo_of_Mango_(new).png"></div>
+                        <div class="section-contact__image-wrapper"><img class="section-contact__image" src="resources/img/1280px-Gucci_Logo.png"></div>
+                        <div class="section-contact__image-wrapper"><img class="section-contact__image" src="resources/img/1280px-Logo_NIKE.png"></div>
+                        <div class="section-contact__image-wrapper"><img class="section-contact__image" src="resources/img/Puma_Logo.png"></div>
+                        <div class="section-contact__image-wrapper"><img class="section-contact__image" src="resources/img/Billabong.png"></div>
                     </ul>
                 </div>
             </div>
