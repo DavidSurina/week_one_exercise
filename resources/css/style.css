@@ -73,6 +73,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 /* ------------Section contact-headings------------------ */
 
@@ -84,7 +85,7 @@ body {
 /* ------------Section contact-form------------------ */
 
 .section-contact__form-wrapper {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
 }
@@ -92,7 +93,7 @@ body {
 /* ------------Section contact-clients-----------------*/
 
 .section-contact__our-clients {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
 }
