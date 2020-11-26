@@ -80,8 +80,16 @@ header .header-logo{
     width: 100%;
     height: 65vh;
 }
-
-.header.logo
+/* @avril-check: 
+    please check ".header.logo" below
+    - should .header.logo be deleted or 
+    - do you want to add the same styles as for .section-hero h1  
+      (then a comma needs to be added like this: 
+            .header.logo,
+            .section-hero h1 
+   please delete my comment after solving :)
+*/
+.header.logo 
 
 .section-hero h1 {
 padding-top: 2rem;
@@ -178,7 +186,7 @@ p.times {
     font-size: 1.2em;
     color: gray;
 }
-
+/*
 #box1 {
     border: ;
 }
@@ -201,7 +209,7 @@ p.times {
 
 #box6 {
     
-}
+} */
 
 /* ----------------- Section Team sb ---------------------- */
 .section-default {
