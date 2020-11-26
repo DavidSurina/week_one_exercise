@@ -64,14 +64,10 @@ header .header-logo{
     flex-direction: row;
 }
 
-<<<<<<< HEAD
 .home-header{
     color: aqua
 }
 /* sections */
-=======
-/* ----------------- Sections ---------------------- */
->>>>>>> 54ae192 (add team-section first draft, add comments)
 
 /* -----------------Section hero---------------------- */
 
@@ -182,7 +178,6 @@ p.times {
     color: gray;
 }
 
-<<<<<<< HEAD
 #box1 {
     border: ;
 }
@@ -207,7 +202,6 @@ p.times {
     
 }
 
-=======
 /* ----------------- Section Team sb ---------------------- */
 .section-default {
     padding-top: 85px;
@@ -284,7 +278,6 @@ overflow: hidden;
 
 
 
->>>>>>> 54ae192 (add team-section first draft, add comments)
 /* -----------------Section contact---------------------- */
 
 .section-contact {
