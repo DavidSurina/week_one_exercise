@@ -55,8 +55,46 @@ body {
 
 .section-contact {
     display: flex;
-    width: 80%;
+    margin: 0 auto;
+    padding: 10rem 0;
+    width: 60%;
     height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-contact__headings {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-contact__content-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+/* ------------Section contact-headings------------------ */
+
+.section-contact__heading {
+    width: 50%;
+}
+
+
+/* ------------Section contact-form------------------ */
+
+.section-contact__form-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------Section contact-clients-----------------*/
+
+.section-contact__our-clients {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* -------------------------------------------------- */
