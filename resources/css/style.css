@@ -76,7 +76,7 @@ body {
 .section-contact__heading {
     width: 45%;
     font-size: 3rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 
@@ -127,7 +127,21 @@ body {
 .section-contact__our-clients {
     width: 45%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-contact__image-column {
+    width: 40%;
+}
+
+.section-contact__image-wrapper {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.section-contact__image {
+    width: 80%;
 }
 
 /* -------------------------------------------------- */
