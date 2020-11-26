@@ -63,37 +63,47 @@ body {
     flex-direction: column;
 }
 
-.section-contact__headings {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
+.section-contact__headings,
 .section-contact__content-box {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 /* ------------Section contact-headings------------------ */
 
 .section-contact__heading {
-    width: 50%;
+    width: 45%;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
 }
 
 
 /* ------------Section contact-form------------------ */
 
 .section-contact__form-wrapper {
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
+}
+
+.section-contact__input,
+.section-contact__input-ym {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-contact__input-ym {
+    resize: none;
 }
 
 /* ------------Section contact-clients-----------------*/
 
 .section-contact__our-clients {
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
 }
