@@ -114,6 +114,12 @@ body {
     color: aqua;
     border: 1px solid aqua;
     font-weight: bold;
+    transition: background .3s, color .3s;
+}
+
+.section-contact__button:hover {
+    background: aqua;
+    color: #fff;
 }
 
 /* ------------Section contact-clients-----------------*/
