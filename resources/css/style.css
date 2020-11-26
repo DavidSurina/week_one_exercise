@@ -24,7 +24,9 @@ header {
 }
 
 header .header-logo{
-    display: none;
+    display: flex;
+    width: 20%;
+
 }
 
 .header li {
@@ -36,6 +38,7 @@ header .header-logo{
 
 .header-logo-letters{
     color: aqua;
+    flex-direction: row;
 }
 
 .home-header{
@@ -51,23 +54,28 @@ header .header-logo{
     background-size: cover;
     align-items: center;
     width: 100%;
-    height: 85vh;
+    height: 65vh;
 }
 
-.secion-hero h1 {
+.header.logo
+
+.section-hero h1 {
 padding-top: 2rem;
 font-size: 2rem;
 font-weight: bold;
+color: #fff;
 }
 
-.secion-hero p{
+.section-hero p{
 letter-spacing: .5rem;
 justify-content: center;
+color: #fff;
 }
 
 .btn-section-hero {
-    font-size: .6rem;
+    font-size: .4rem;
     font-weight: lighter;
+    border-radius: 0em;
     color: aqua;
 }
 
