@@ -117,8 +117,93 @@ color: #fff;
 
 .section-contact {
     display: flex;
+    margin: 0 auto;
+    padding: 17rem 0;
+    width: 60%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-contact__headings,
+.section-contact__content-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* ------------Section contact-headings------------------ */
+
+.section-contact__heading {
+    width: 45%;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+/* ------------Section contact-form------------------ */
+
+.section-contact__form-wrapper {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-contact__input,
+.section-contact__input-ym {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.section-contact__input,
+.section-contact__input-ym:focus {
+    outline: none;
+}
+
+.section-contact__input-ym {
+    resize: none;
+}
+
+.section-contact__button {
+    width: 10rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: aqua;
+    border: 1px solid aqua;
+    font-weight: bold;
+    transition: background .3s, color .3s;
+}
+
+.section-contact__button:hover {
+    background: aqua;
+    color: #fff;
+}
+
+/* ------------Section contact-clients-----------------*/
+
+.section-contact__our-clients {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-contact__image-column {
+    width: 40%;
+}
+
+.section-contact__image-wrapper {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.section-contact__image {
     width: 80%;
-    height: 80vh;
 }
 
 /* -------------------------------------------------- */
@@ -245,6 +330,11 @@ color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: border .2s;
+}
+
+.footer__input-box:hover {
+    border: 1px solid aqua;
 }
 
 .footer__input {
