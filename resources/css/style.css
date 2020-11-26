@@ -56,9 +56,9 @@ body {
 .section-contact {
     display: flex;
     margin: 0 auto;
-    padding: 20rem 0;
+    padding: 17rem 0;
     width: 60%;
-    height: 80vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
 }
@@ -92,8 +92,14 @@ body {
 .section-contact__input-ym {
     margin-bottom: 2rem;
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 1.5rem;
     font-family: 'Poppins', sans-serif;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.section-contact__input,
+.section-contact__input-ym:focus {
+    outline: none;
 }
 
 .section-contact__input-ym {
