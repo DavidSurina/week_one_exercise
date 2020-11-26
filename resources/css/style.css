@@ -14,10 +14,62 @@ body {
 
 /* header */
 
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem, 3rem;
+    height: 1rem, 1rem; 
+    background-color: #2e2ef8;
+}
 
+header .header-logo{
+    display: none;
+}
 
+.header li {
+    display: inline;
+    padding-right: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header-logo-letters{
+    color: aqua;
+}
+
+.home-header{
+    color: aqua
+}
 /* sections */
 
+/* -----------------Section hero---------------------- */
+
+.section-hero.forest {
+    display: flex;
+    background: url('../img/bgk-header.png');
+    background-size: cover;
+    align-items: center;
+}
+
+.secion-hero h1 {
+padding-top: 2rem;
+font-size: 2rem;
+font-weight: bold;
+}
+
+.secion-hero p{
+letter-spacing: .5rem;
+justify-content: center;
+}
+
+.btn-section-hero {
+    font-size: .6rem;
+    font-weight: lighter;
+    color: aqua;
+}
+
+/* -----------------Section video---------------------- */
 .section-video {
     background-image: url('../img/bgk-middle.png');
     height: 550px;
