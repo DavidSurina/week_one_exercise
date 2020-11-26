@@ -11,6 +11,29 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
 }
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+} 
+.center-container-70 {
+    width: 70%;
+    margin: auto;
+}
+
+
+/* ### To Do - refactoring 
+add global stylings  for headlines, p, buttons, line-height, font weight, sections etc. 
+--> in order to avoid redundant code and to assure using consistent styling;
+suggestions here: */
+/*
+.sections {
+    overflow: hidden;
+}
+... */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
 
 /* header */
 
@@ -41,10 +64,14 @@ header .header-logo{
     flex-direction: row;
 }
 
+<<<<<<< HEAD
 .home-header{
     color: aqua
 }
 /* sections */
+=======
+/* ----------------- Sections ---------------------- */
+>>>>>>> 54ae192 (add team-section first draft, add comments)
 
 /* -----------------Section hero---------------------- */
 
@@ -155,6 +182,7 @@ p.times {
     color: gray;
 }
 
+<<<<<<< HEAD
 #box1 {
     border: ;
 }
@@ -179,6 +207,84 @@ p.times {
     
 }
 
+=======
+/* ----------------- Section Team sb ---------------------- */
+.section-default {
+    padding-top: 85px;
+padding-bottom: 105px;
+overflow: hidden;
+}
+.section-team {
+    display: flex;
+    flex-direction: column;
+    min-height: 65vh;
+    background: url("../img/bgk-header.png");
+    background-position: top;
+    background-size: cover;
+    color: white;
+    
+}
+.section-team__head {
+    text-align: center;
+    line-height: 1.5rem;
+    margin-top: 5rem;
+}
+.section-team__head h3 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+.section-team__line {
+    height: 0.2rem;
+    width: 5rem;
+    margin: 2rem auto;
+    background: white;
+}
+.section-team__cardset {
+    
+    display: flex;
+    columns: 4;
+    column-gap: 3rem;
+    min-height: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+.section-team__img {
+    background: white;
+    border: 1px solid black;
+}
+.section-team__contact {
+    align-items: center; /* noeff sb-ch*/
+    justify-content: center; /* noeff sb-ch*/
+    text-align: center;
+    
+}
+
+.section-team__contact button {
+    padding: 0.9rem 3rem;
+    margin-top: 2rem;
+    min-width: 16rem;
+    height: 4.5rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #01e1d1;
+    border-radius: 0px;  
+}
+/* sb-ToDo: :hover */
+
+.section-team__btn a  {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    color: #01e1d1;
+}
+
+
+
+
+>>>>>>> 54ae192 (add team-section first draft, add comments)
 /* -----------------Section contact---------------------- */
 
 .section-contact {
