@@ -56,7 +56,7 @@ body {
 .section-contact {
     display: flex;
     margin: 0 auto;
-    padding: 10rem 0;
+    padding: 20rem 0;
     width: 60%;
     height: 80vh;
     display: flex;
@@ -75,7 +75,7 @@ body {
 
 .section-contact__heading {
     width: 45%;
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding-bottom: 2rem;
 }
 
@@ -98,6 +98,16 @@ body {
 
 .section-contact__input-ym {
     resize: none;
+}
+
+.section-contact__button {
+    width: 10rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: aqua;
+    border: 1px solid aqua;
+    font-weight: bold;
 }
 
 /* ------------Section contact-clients-----------------*/
