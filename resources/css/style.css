@@ -81,7 +81,8 @@ color: #fff;
 
 /* -----------------Section video---------------------- */
 .section-video {
-
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../img/bgk-middle.png');
     height: 550px;
@@ -90,6 +91,7 @@ color: #fff;
     justify-content: center;
     flex-direction: column;
 }
+
 .section-video img {
     margin-bottom: 30px;
 }
