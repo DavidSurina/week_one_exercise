@@ -22,6 +22,12 @@ body {
   width: 60%;
   margin: auto;
 }
+.line-sep {
+  height: 0.2rem;
+  width: 5rem;
+  margin: 2rem auto;
+  background: #c5c4c9;
+}
 
 /* ### To Do - refactoring 
 add global stylings  for headlines, p, buttons, line-height, font weight, sections etc. 
@@ -148,11 +154,6 @@ header .header-logo {
   font-size: 1.8em;
 }
 
-p.line {
-  border-bottom: 1px solid gray;
-  color: white;
-}
-
 .section-expertise h2 {
   margin-bottom: 0.3em;
   font-family: Times New Roman;
@@ -253,12 +254,7 @@ p.line {
   line-height: 5rem;
   font-weight: 700;
 }
-.section-team__line {
-  height: 0.2rem;
-  width: 5rem;
-  margin: 2rem auto;
-  background: white;
-}
+
 .section-team__cardset {
   display: flex;
   flex-wrap: wrap;
@@ -322,7 +318,6 @@ p.line {
   color: white;
   border: 1px solid #68dacd;
   background: #68dacd;
-  font-weight: 600;
 }
 
 /* ----------------------------------------------------- */
