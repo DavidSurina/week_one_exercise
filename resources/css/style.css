@@ -116,25 +116,25 @@ header .header-logo {
 
 /* -----------------Section video---------------------- */
 .section-video {
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-image: url("../img/bgk-middle.png");
-  height: 550px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../img/bgk-middle.png');
+    background-size: cover;
+    min-height: 85vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .section-video img {
-  margin-bottom: 30px;
+    margin: 30px;
 }
+
 .section-video p {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+    color: white;
+    font-weight: bold
 }
 
 .section-video p {
@@ -155,9 +155,9 @@ header .header-logo {
 }
 
 .section-expertise h2 {
-  margin-bottom: 0.3em;
-  font-family: Times New Roman;
-  font-size: 2.5em;
+    margin-bottom: .3em;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.5em;
 }
 
 #order-box-margin {
