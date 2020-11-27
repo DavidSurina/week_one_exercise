@@ -115,7 +115,7 @@ header .header-logo {
   width: 100%;
   background-repeat: no-repeat;
   background-image: url("../img/bgk-middle.png");
-  height: 550px;
+  height: 85vh;
   align-items: center;
   display: flex;
   justify-content: center;
