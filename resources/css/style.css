@@ -91,6 +91,10 @@ suggestions here: */
     font-size: 1.5rem;
 }
 
+.diff_col {
+    color:aqua;
+}
+
 /*
 .header_tajam-wrapper {
     width: 30%;
