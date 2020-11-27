@@ -333,7 +333,6 @@ p.line {
   margin: 0 auto;
   padding: 13rem 0;
   width: 60%;
-  height: 90vh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
