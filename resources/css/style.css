@@ -59,14 +59,13 @@ header .header-logo {
   color: #fff;
 }
 
-.header-logo-letters {
-  color: aqua;
-  flex-direction: row;
+.header-logo-letters{
+    color: #68DACD;
+    flex-direction: row;
 }
 
-/* ----------------- Sections ---------------------- */
-.home-header {
-  color: aqua;
+.home-header{
+    color: #68DACD;
 }
 /* sections */
 
@@ -103,10 +102,10 @@ header .header-logo {
 }
 
 .btn-section-hero {
-  font-size: 0.4rem;
-  font-weight: lighter;
-  border-radius: 0em;
-  color: aqua;
+    font-size: .4rem;
+    font-weight: lighter;
+    border-radius: 0em;
+    color: #68DACD;
 }
 
 /* -----------------Section video---------------------- */
@@ -236,14 +235,13 @@ p.line {
 }
 
 .section-team {
-  display: flex;
-  flex-direction: column;
-  min-height: 65vh;
-  background: url('../img/bgk-header.png');
-  background-position: top;
-  background-size: cover;
-  color: white;
-  z-index: -1;
+    display: flex;
+    flex-direction: column;
+    min-height: 65vh;
+    background: url("../img/bgk-header.png");
+    background-position: top;
+    background-size: cover;
+    color: white;    
 }
 .section-team__head {
   text-align: center;
@@ -270,17 +268,17 @@ p.line {
   align-items: center;
   justify-content: space-between;
 
-  width: 70%; /* sb-ch */
-  margin: auto; /* sb-ch */
+    width: 60%; /* sb-ch */
+    margin: auto; /* sb-ch */
 }
 .section-team__card {
-  flex: 1 25rem;
-  border: 1px solid #fff;
-  margin: 2rem;
-  background: transparent;
-  min-height: 40vh;
-  max-width: 25rem;
-}
+    flex: 1 20rem;
+    border: 1px solid #fff;
+    margin: 2rem;
+    background: transparent;
+    min-height: 40vh; 
+    max-width: 25rem;  
+} 
 .section-team__img img {
   width: 100%;
   align-items: center;
@@ -308,17 +306,17 @@ p.line {
   margin-top: 6rem;
 }
 .section-team__contact button {
-  padding: 0.9rem 3rem;
-  margin-top: 2rem;
-  min-width: 16rem;
-  height: 4.5rem;
-  text-align: center;
-  letter-spacing: 0.1rem;
-  font-size: 2rem;
-  font-weight: 500;
-  background-color: transparent;
-  border: 1px solid #01e1d1;
-  border-radius: 0px;
+    padding: 0.9rem 3rem;
+    margin-top: 2rem;
+    min-width: 16rem;
+    height: 4.5rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #68DACD;
+    border-radius: 0px;  
 }
 /* sb-ToDo: add button:hover */
 
@@ -385,19 +383,19 @@ p.line {
 }
 
 .section-contact__button {
-  width: 10rem;
-  padding: 1rem;
-  font-family: 'Poppins', sans-serif;
-  background: #fff;
-  color: aqua;
-  border: 1px solid aqua;
-  font-weight: bold;
-  transition: background 0.3s, color 0.3s;
+    width: 10rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: #68DACD;
+    border: 1px solid #68DACD;
+    font-weight: bold;
+    transition: background .3s, color .3s;
 }
 
 .section-contact__button:hover {
-  background: aqua;
-  color: #fff;
+    background: #68DACD;
+    color: #fff;
 }
 
 /* ------------Section contact-clients-----------------*/
@@ -489,9 +487,9 @@ p.line {
 }
 
 .footer__tajam-heading {
-  color: aqua;
-  font-weight: 100;
-  font-size: 3rem;
+    color: #68DACD;
+    font-weight: 100;
+    font-size: 3rem;
 }
 
 .footer__tajam-logo-wrapper {
@@ -550,7 +548,7 @@ p.line {
 }
 
 .footer__input-box:hover {
-  border: 1px solid aqua;
+    border: 1px solid #68DACD;
 }
 
 .footer__input {
@@ -625,7 +623,7 @@ p.line {
 }
 
 .footer__link:hover {
-  color: aqua;
+    color: #68DACD;
 }
 
 .footer__copyright {
