@@ -328,7 +328,9 @@ p.line {
   color: #01e1d1;
 }
 
-/* -----------------Section contact---------------------- */
+/* ----------------------------------------------------- */
+/* -----------------Section contact--------------------- */
+/* ----------------------------------------------------- */
 
 .section-contact {
   display: flex;
@@ -427,7 +429,7 @@ p.line {
 .footer {
   display: flex;
   width: 100%;
-  height: 45vh;
+  padding: 10rem 0;
   margin: 0 auto;
   background-image: url('../img/bgk-footer.png');
   background-repeat: no-repeat;
@@ -458,6 +460,7 @@ p.line {
 .footer__headings,
 .footer__desc-content {
   width: 100%;
+  padding: 0 0 5rem 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -536,7 +539,7 @@ p.line {
 }
 
 .footer__input-box {
-  width: 70%;
+  width: 77%;
   height: 4rem;
   border: 1px solid #fff;
   margin: 0 3% 7% 0;
@@ -551,7 +554,7 @@ p.line {
 }
 
 .footer__input {
-  width: 95%;
+  width: 100%;
   height: 1.8rem;
   padding-left: 5%;
   background: transparent;
