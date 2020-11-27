@@ -62,13 +62,12 @@ header .header-logo{
 }
 
 .header-logo-letters{
-    color: aqua;
+    color: #68DACD;
     flex-direction: row;
 }
 
-/* ----------------- Sections ---------------------- */
 .home-header{
-    color: aqua
+    color: #68DACD;
 }
 /* sections */
 
@@ -110,7 +109,7 @@ color: #fff;
     font-size: .4rem;
     font-weight: lighter;
     border-radius: 0em;
-    color: aqua;
+    color: #68DACD;
 }
 
 /* -----------------Section video---------------------- */
@@ -247,9 +246,7 @@ p.line {
     background: url("../img/bgk-header.png");
     background-position: top;
     background-size: cover;
-    color: white;
-    z-index: -1;
-    
+    color: white;    
 }
 .section-team__head {
     text-align: center;
@@ -276,11 +273,11 @@ p.line {
     align-items: center;
     justify-content: space-between;
 
-    width: 70%; /* sb-ch */
+    width: 60%; /* sb-ch */
     margin: auto; /* sb-ch */
 }
 .section-team__card {
-    flex: 1 25rem;
+    flex: 1 20rem;
     border: 1px solid #fff;
     margin: 2rem;
     background: transparent;
@@ -323,7 +320,7 @@ p.line {
     font-size: 2rem;
     font-weight: 500;
     background-color: transparent;
-    border: 1px solid #01e1d1;
+    border: 1px solid #68DACD;
     border-radius: 0px;  
 }
 /* sb-ToDo: add button:hover */
@@ -397,14 +394,14 @@ p.line {
     padding: 1rem;
     font-family: 'Poppins', sans-serif;
     background: #fff;
-    color: aqua;
-    border: 1px solid aqua;
+    color: #68DACD;
+    border: 1px solid #68DACD;
     font-weight: bold;
     transition: background .3s, color .3s;
 }
 
 .section-contact__button:hover {
-    background: aqua;
+    background: #68DACD;
     color: #fff;
 }
 
@@ -497,7 +494,7 @@ p.line {
 }
 
 .footer__tajam-heading {
-    color: aqua;
+    color: #68DACD;
     font-weight: 100;
     font-size: 3rem;
 }
@@ -558,7 +555,7 @@ p.line {
 }
 
 .footer__input-box:hover {
-    border: 1px solid aqua;
+    border: 1px solid #68DACD;
 }
 
 .footer__input {
@@ -633,7 +630,7 @@ p.line {
 }
 
 .footer__link:hover {
-    color: aqua;
+    color: #68DACD;
 }
 
 .footer__copyright {
