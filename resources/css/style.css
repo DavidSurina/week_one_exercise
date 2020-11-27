@@ -46,12 +46,13 @@ suggestions here: */
     --> using a class here as this styling is global and overrides all sectioning headers used in project */
 
 .section-header {
+    position: absolute;
     width: 100%;
     min-height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    z-index: 0;
+    z-index: 10;
 }
 
 .header_logo-wrapper {
@@ -77,6 +78,17 @@ suggestions here: */
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.header_link-wrapper {
+    color: aqua;
+    list-style: none;
+}
+
+.header_link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
 }
 
 /*
