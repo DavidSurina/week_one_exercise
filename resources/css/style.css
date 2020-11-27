@@ -161,6 +161,28 @@ h1 {
   background-color: transparent;
 }
 
+/* ----------------- Section Story sb --------------------- */
+.section-story {
+  display: flex;
+  min-height: 35vh;
+}
+
+.section-story_row {
+  display: flex;
+  align-content: center;
+}
+.section-story__article {
+  margin-left: 10rem;
+}
+.section-story__article p {
+  font-size: 1.5rem;
+  color: gray;
+  margin: 1rem 0;
+}
+.section-story img {
+  min-height: 20vh;
+}
+
 /* -----------------Section video---------------------- */
 .section-video {
     width: 100%;
@@ -175,12 +197,12 @@ h1 {
 }
 
 .section-video img {
-    margin: 30px;
+  margin: 30px;
 }
 
 .section-video p {
-    color: white;
-    font-weight: bold
+  color: white;
+  font-weight: bold;
 }
 
 .section-video p {
@@ -201,9 +223,9 @@ h1 {
 }
 
 .section-expertise h2 {
-    margin-bottom: .3em;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 2.5em;
+  margin-bottom: 0.3em;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5em;
 }
 
 #order-box-margin {
@@ -274,6 +296,7 @@ h1 {
   padding-bottom: 10rem;
   overflow: hidden;
 }
+
 .section-team__info p,
 .section-team__contact p,
 .section-team__head p {
@@ -295,7 +318,10 @@ h1 {
   line-height: 1.5rem;
   margin-bottom: 5rem;
 }
-.section-team__head h3 {
+
+/* sb-ToDo: change h3 to global class: */
+.section-team__head h3,
+.section-story__article h3 {
   font-size: 2.5rem;
   line-height: 5rem;
   font-weight: 700;
@@ -346,6 +372,8 @@ h1 {
   text-align: center;
   margin-top: 6rem;
 }
+/* sb-todo: change button to global .button-blue */
+.section-story__btn,
 .section-team__contact button {
   padding: 0.9rem 3rem;
   margin-top: 2rem;
