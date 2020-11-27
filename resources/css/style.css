@@ -11,9 +11,34 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
 }
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+} 
+/* sb-ch
+.center-container-70 {
+    width: 70%;
+    margin: auto;
+} */
+
+
+/* ### To Do - refactoring 
+add global stylings  for headlines, p, buttons, line-height, font weight, sections etc. 
+--> in order to avoid redundant code and to assure using consistent styling;
+suggestions here: */
+/*
+.sections {
+    overflow: hidden;
+}
+... */
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
 
 /* header */
-
+/* sb@ac 4 teamsession today (11-27): talk about changes 
+    --> using a class here as this styling is global and overrides all sectioning headers used in project */
 header {
     display: flex;
     justify-content: space-around;
@@ -41,6 +66,7 @@ header .header-logo{
     flex-direction: row;
 }
 
+/* ----------------- Sections ---------------------- */
 .home-header{
     color: aqua
 }
@@ -56,8 +82,16 @@ header .header-logo{
     width: 100%;
     height: 65vh;
 }
-
-.header.logo
+/* @avril-check: 
+    please check ".header.logo" below
+    - should .header.logo be deleted or 
+    - do you want to add the same styles as for .section-hero h1  
+      (then a comma needs to be added like this: 
+            .header.logo,
+            .section-hero h1 
+   please delete my comment after solving :)
+*/
+.header.logo 
 
 .section-hero h1 {
 padding-top: 2rem;
@@ -83,6 +117,7 @@ color: #fff;
 .section-video {
     background-position: center;
     background-size: cover;
+    width: 100%;
     background-repeat: no-repeat;
     background-image: url('../img/bgk-middle.png');
     height: 550px;
@@ -109,19 +144,24 @@ color: #fff;
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 50%;
-    margin: 5em auto;
+    width: 60%;
+    margin: 7em auto;
 }
 
-p.times {
+#times {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.4rem;
+    font-size: 1.8em;
+}
+
+p.line {
+   border-bottom: 1px solid gray;
+   color: white;
 }
 
 .section-expertise h2 {
     margin-bottom: .3em;
     font-family: Times New Roman;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 #order-box-margin {
@@ -140,46 +180,164 @@ p.times {
     text-align: center;
     width: 33%;
     padding: 20px;
-    border: 1px  solid grey;
+
 }
 
 .box img {
-    margin: 1.5em 0;
+    margin: 2em 0;
 }
 
 .box h5 {
     margin-bottom: 1em;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .box p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: gray;
 }
 
 #box1 {
-    border: ;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
 }
 
 #box2 {
-    
+    border-left: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
 }
 
 #box3 {
-    
+    border-left: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
 }
 
 #box4 {
-    
+    border-top: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
 }
 
 #box5 {
-    
+    border-left: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
 }
 
 #box6 {
+    border-left: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+}
+
+/* ----------------- Section Team sb ---------------------- */
+.section-default {
+    padding-top: 8.5rem;
+    padding-bottom: 10rem;
+    overflow: hidden;
+}
+.section-team__info p,
+.section-team__contact p,
+.section-team__head p {
+    line-height: 3rem;
+    font-size: 1.7rem; 
+}
+
+.section-team {
+    display: flex;
+    flex-direction: column;
+    min-height: 65vh;
+    background: url("../img/bgk-header.png");
+    background-position: top;
+    background-size: cover;
+    color: white;
+    z-index: -1;
     
 }
+.section-team__head {
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 5rem;
+}
+.section-team__head h3 {
+    font-size: 2.5rem;
+    line-height: 5rem;
+    font-weight: 700;
+}
+.section-team__line {
+    height: 0.2rem;
+    width: 5rem;
+    margin: 2rem auto;
+    background: white;
+}
+.section-team__cardset {
+    display: flex;
+    flex-wrap: wrap; 
+    /*columns: 4;
+    column-gap: 1rem;*/ /* not needed when using justify-content: space-around/between */
+    min-height: 60vh;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 70%; /* sb-ch */
+    margin: auto; /* sb-ch */
+}
+.section-team__card {
+    flex: 1 25rem;
+    border: 1px solid #fff;
+    margin: 2rem;
+    background: transparent;
+    min-height: 40vh; 
+    max-width: 25rem;  
+} 
+.section-team__img img {
+    width: 100%;
+    align-items: center;
+    background: white;
+    min-height: 30rem;
+}
+.section-team__info {
+    padding: 2rem 0;
+    text-align: center;
+}
+.section-team__info h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.section-team__info p {
+    text-transform: uppercase;
+}
+.section-team__info p:last-child {
+    margin-bottom: 0px;
+}
+.section-team__contact {
+    align-items: center; /* noeff sb-ch*/
+    justify-content: center; /* noeff sb-ch*/
+    text-align: center;
+    margin-top: 6rem;
+}
+.section-team__contact button {
+    padding: 0.9rem 3rem;
+    margin-top: 2rem;
+    min-width: 16rem;
+    height: 4.5rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: transparent;
+    border: 1px solid #01e1d1;
+    border-radius: 0px;  
+}
+/* sb-ToDo: add button:hover */
+
+.section-team__btn a  {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    color: #01e1d1;
+}
+
+
+
 
 /* -----------------Section contact---------------------- */
 
