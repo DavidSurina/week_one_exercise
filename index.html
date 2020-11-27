@@ -87,11 +87,12 @@
         <!-- sb BEGIN Team Section -->
         <section id="team" class="section-team">
             <div class="section-default"><!-- END section-default sb -->
-                <header class="section-team__head">
+                <div class="section-team__head">
                     <h3 class="uppercase">Meet Our Amazing Team</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
                     <div class="section-team__line"></div>
-                </header>
+                </div><!-- changed sectioning <header> container to div container because of styling conflict:
+                .section-team__head @sb has been overwritten by global header stylings(@ac) -->
                 
                 <div class="section-team__cardset center container-70">
                     <div class="section-team__card">

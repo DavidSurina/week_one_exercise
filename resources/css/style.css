@@ -36,7 +36,8 @@ suggestions here: */
 /* -------------------------------------------------- */
 
 /* header */
-
+/* sb@ac 4 teamsession today (11-27): talk about changes 
+    --> using a class here as this styling is global and overrides all sectioning headers used in project */
 header {
     display: flex;
     justify-content: space-around;
@@ -220,8 +221,8 @@ overflow: hidden;
 
 /* ----------------- Section Team sb ---------------------- */
 .section-default {
-    padding-top: 85px;
-padding-bottom: 105px;
+padding-top: 8.5rem;
+padding-bottom: 10rem;
 overflow: hidden;
 }
 .section-team {
@@ -283,7 +284,7 @@ overflow: hidden;
     border: 1px solid #01e1d1;
     border-radius: 0px;  
 }
-/* sb-ToDo: :hover */
+/* sb-ToDo: add button:hover */
 
 .section-team__btn a  {
     margin-top: 2rem;
