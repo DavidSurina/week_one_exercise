@@ -190,35 +190,35 @@ p.line {
 }
 
 #box1 {
-  border-right: 1px solid whitesmoke;
-  border-bottom: 1px solid whitesmoke;
+  border-right: 1px solid rgb(224, 224, 224);
+  border-bottom: 1px solid rgb(224, 224, 224);
 }
 
 #box2 {
-  border-left: 1px solid whitesmoke;
-  border-bottom: 1px solid whitesmoke;
-  border-right: 1px solid whitesmoke;
+  border-left: 1px solid rgb(224, 224, 224);
+  border-bottom: 1px solid rgb(224, 224, 224);
+  border-right: 1px solid  rgb(224, 224, 224);
 }
 
 #box3 {
-  border-left: 1px solid whitesmoke;
-  border-bottom: 1px solid whitesmoke;
+  border-left: 1px solid rgb(224, 224, 224);
+  border-bottom: 1px solid rgb(224, 224, 224);
 }
 
 #box4 {
-  border-top: 1px solid whitesmoke;
-  border-right: 1px solid whitesmoke;
+  border-top: 1px solid rgb(224, 224, 224);
+  border-right: 1px solid rgb(224, 224, 224);
 }
 
 #box5 {
-  border-left: 1px solid whitesmoke;
-  border-top: 1px solid whitesmoke;
-  border-right: 1px solid whitesmoke;
+  border-left: 1px solid rgb(224, 224, 224);
+  border-top: 1px solid rgb(224, 224, 224);
+  border-right: 1px solid rgb(224, 224, 224);
 }
 
 #box6 {
-  border-left: 1px solid whitesmoke;
-  border-top: 1px solid whitesmoke;
+  border-left: 1px solid rgb(224, 224, 224);
+  border-top: 1px solid rgb(224, 224, 224);
 }
 
 /* ----------------- Section Team sb ---------------------- */
