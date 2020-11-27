@@ -427,7 +427,7 @@ p.line {
 .footer {
   display: flex;
   width: 100%;
-  padding: 10rem 0;
+  padding: 8rem 0;
   margin: 0 auto;
   background-image: url('../img/bgk-footer.png');
   background-repeat: no-repeat;
@@ -458,7 +458,6 @@ p.line {
 .footer__headings,
 .footer__desc-content {
   width: 100%;
-  padding: 0 0 5rem 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -466,10 +465,12 @@ p.line {
 
 .footer__desc-content {
   height: 60%;
+  padding: 0 0 6rem 0;
 }
 
 .footer__headings {
   height: 40%;
+  padding: 0 0 4rem 0;
 }
 
 /*------- footer Headings -------------------------- */
