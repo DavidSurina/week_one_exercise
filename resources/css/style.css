@@ -17,10 +17,11 @@ body {
 .capitalize {
     text-transform: capitalize;
 } 
+/* sb-ch
 .center-container-70 {
     width: 70%;
     margin: auto;
-}
+} */
 
 
 /* ### To Do - refactoring 
@@ -228,17 +229,17 @@ p.line {
 
 /* ----------------- Section Team sb ---------------------- */
 .section-default {
-    padding-top: 85px;
-padding-bottom: 105px;
-overflow: hidden;
+    padding-top: 8.5rem;
+    padding-bottom: 10rem;
+    overflow: hidden;
+}
+.section-team__info p,
+.section-team__contact p,
+.section-team__head p {
+    line-height: 3rem;
+    font-size: 1.7rem; 
 }
 
-/* ----------------- Section Team sb ---------------------- */
-.section-default {
-padding-top: 8.5rem;
-padding-bottom: 10rem;
-overflow: hidden;
-}
 .section-team {
     display: flex;
     flex-direction: column;
@@ -247,16 +248,17 @@ overflow: hidden;
     background-position: top;
     background-size: cover;
     color: white;
+    z-index: -1;
     
 }
 .section-team__head {
     text-align: center;
     line-height: 1.5rem;
-    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 .section-team__head h3 {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
     font-weight: 700;
 }
 .section-team__line {
@@ -266,25 +268,51 @@ overflow: hidden;
     background: white;
 }
 .section-team__cardset {
-    
     display: flex;
-    columns: 4;
-    column-gap: 3rem;
-    min-height: 40vh;
+    flex-wrap: wrap; 
+    /*columns: 4;
+    column-gap: 1rem;*/ /* not needed when using justify-content: space-around/between */
+    min-height: 60vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+
+    width: 70%; /* sb-ch */
+    margin: auto; /* sb-ch */
 }
-.section-team__img {
+.section-team__card {
+    flex: 1 25rem;
+    border: 1px solid #fff;
+    margin: 2rem;
+    background: transparent;
+    min-height: 40vh; 
+    max-width: 25rem;  
+} 
+.section-team__img img {
+    width: 100%;
+    align-items: center;
     background: white;
-    border: 1px solid black;
+    min-height: 30rem;
+}
+.section-team__info {
+    padding: 2rem 0;
+    text-align: center;
+}
+.section-team__info h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.section-team__info p {
+    text-transform: uppercase;
+}
+.section-team__info p:last-child {
+    margin-bottom: 0px;
 }
 .section-team__contact {
     align-items: center; /* noeff sb-ch*/
     justify-content: center; /* noeff sb-ch*/
     text-align: center;
-    
+    margin-top: 6rem;
 }
-
 .section-team__contact button {
     padding: 0.9rem 3rem;
     margin-top: 2rem;
