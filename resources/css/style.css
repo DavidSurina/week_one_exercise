@@ -45,8 +45,43 @@ suggestions here: */
 /* sb@ac 4 teamsession today (11-27): talk about changes 
     --> using a class here as this styling is global and overrides all sectioning headers used in project */
 
-.header_tajam-wrapper,
+.section-header {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    z-index: 0;
+}
+
+.header_logo-wrapper {
+    width: 20%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
 .header_tajam-heading {
+    font-size: 2rem;
+}
+
+.header_tajam-heading {
+    color: aqua;
+}
+
+.header_nav {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*
+.header_tajam-wrapper {
+    width: 30%;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -56,6 +91,7 @@ suggestions here: */
   color: aqua;
   font-size: 1.7em;
 }
+
 .header_tajam-logo-wrapper {
   display: flex;
   margin-right: 5%;
@@ -78,7 +114,7 @@ suggestions here: */
   color: #68dacd;
   flex-direction: row;
 }
-
+*/
 /* sections */
 
 /* -----------------Section hero---------------------- */
@@ -90,6 +126,7 @@ suggestions here: */
   align-items: center;
   width: 100%;
   height: 65vh;
+  z-index: -1;
 }
 
 .section-hero.p {
