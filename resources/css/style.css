@@ -115,6 +115,7 @@ color: #fff;
 /* -----------------Section video---------------------- */
 .section-video {
 
+    width: 100%;
     background-repeat: no-repeat;
     background-image: url('../img/bgk-middle.png');
     height: 550px;
@@ -140,19 +141,24 @@ color: #fff;
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 50%;
-    margin: 5em auto;
+    width: 60%;
+    margin: 7em auto;
 }
 
-p.times {
+#times {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.4rem;
+    font-size: 1.8em;
+}
+
+p.line {
+   border-bottom: 1px solid gray;
+   color: white;
 }
 
 .section-expertise h2 {
     margin-bottom: .3em;
     font-family: Times New Roman;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 #order-box-margin {
@@ -171,46 +177,54 @@ p.times {
     text-align: center;
     width: 33%;
     padding: 20px;
-    border: 1px  solid grey;
+
 }
 
 .box img {
-    margin: 1.5em 0;
+    margin: 2em 0;
 }
 
 .box h5 {
     margin-bottom: 1em;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .box p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: gray;
 }
-/*
+
 #box1 {
-    border: ;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
 }
 
 #box2 {
-    
+    border-left: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
 }
 
 #box3 {
-    
+    border-left: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
 }
 
 #box4 {
-    
+    border-top: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
 }
 
 #box5 {
-    
+    border-left: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
 }
 
 #box6 {
-    
-} */
+    border-left: 1px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+}
 
 /* ----------------- Section Team sb ---------------------- */
 .section-default {
