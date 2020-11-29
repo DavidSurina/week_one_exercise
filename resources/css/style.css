@@ -30,6 +30,13 @@ body {
   background: #c5c4c9;
 }
 
+.line-sep-aqua {
+  height: 0.2rem;
+  width: 5rem;
+  margin: 2rem auto;
+  background: aqua;
+}
+
 /* ### To Do - refactoring 
 add global stylings  for headlines, p, buttons, line-height, font weight, sections etc. 
 --> in order to avoid redundant code and to assure using consistent styling;
@@ -151,7 +158,22 @@ suggestions here: */
 .section-hero_heading {
   font-size: 3rem;
   color: #fff;
+  margin-top: 2rem;
 }
+
+.section-hero_paragraph {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-hero_btn {
+
+}
+
+
 /*
 .section-hero.p {
   padding-top: 4rem;
@@ -397,16 +419,17 @@ h1 {
   margin-top: 6rem;
 }
 /* sb-todo: change button to global .button-blue */
+.section-hero_btn,
 .section-story__btn,
 .section-team__contact button {
   padding: 0.9rem 3rem;
   margin-top: 2rem;
-  min-width: 16rem;
-  height: 4.5rem;
+  min-width: 12rem;
+  height: 4rem;
   text-align: center;
   letter-spacing: 0.1rem;
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 600;
   background-color: transparent;
   border: 1px solid #68dacd;
   border-radius: 0px;
