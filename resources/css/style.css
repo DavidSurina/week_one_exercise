@@ -96,6 +96,11 @@ suggestions here: */
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
+    transition: color .2s;
+}
+
+.header_link:hover {
+    color: aqua;
 }
 
 .diff_col {
@@ -422,7 +427,7 @@ h1 {
 .section-hero_btn,
 .section-story__btn,
 .section-team__contact button {
-  padding: 0.9rem 3rem;
+  padding: 0.9rem 2rem;
   margin-top: 2rem;
   min-width: 10rem;
   height: 4rem;
