@@ -65,7 +65,7 @@ suggestions here: */
 
 .header_logo-wrapper {
     width: 20%;
-    margin-left: 20%;
+    margin: 0 15% 0 16%;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -73,11 +73,10 @@ suggestions here: */
 }
 
 .header_tajam-heading {
-    font-size: 2rem;
-}
-
-.header_tajam-heading {
+    font-size: 3.5rem;
     color: aqua;
+    font-weight: 200;
+    padding: 0 0 1rem 1rem;
 }
 
 .header_nav {
@@ -151,7 +150,7 @@ suggestions here: */
   align-items: center;
   justify-content: center ;
   width: 100%;
-  height: 65vh;
+  height: 75vh;
   font-family: "Poppins", sans-serif;
 }
 
@@ -435,16 +434,19 @@ h1 {
   border: 1px solid #68dacd;
   border-radius: 0px;
   color: #01e1d1;
+  transition: color .2s, background-color .2s, border .2s;
 }
 
-.section-team__contact button {
-  transition: color .2s, background-color .2s, border .2s;
+.section-story__btn:hover {
+  color: #fff;
+  background-color: aqua;
+  border: none;
 }
 
 .section-team__contact button:hover,
 .section-hero_btn:hover {
   background-color: rgba(0, 255, 255, 0.4);
-  border: 1px solid rgba(0, 255, 255, 0.4);
+  border: none;
   color: #fff;
 }
 
