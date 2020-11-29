@@ -22,6 +22,7 @@ body {
   width: 60%;
   margin: auto;
 }
+
 .line-sep {
   height: 0.2rem;
   width: 5rem;
@@ -139,12 +140,19 @@ suggestions here: */
   display: flex;
   background-image: url("../img/bgk-header.png");
   background-size: cover;
+  flex-direction: column;
   align-items: center;
+  justify-content: center ;
   width: 100%;
   height: 65vh;
-  z-index: -1;
+  font-family: "Poppins", sans-serif;
 }
 
+.section-hero_heading {
+  font-size: 3rem;
+  color: #fff;
+}
+/*
 .section-hero.p {
   padding-top: 4rem;
   font-size: 2rem;
@@ -176,7 +184,7 @@ h1 {
   color: #68dacd;
   background-color: transparent;
 }
-
+*/
 /* ----------------- Section Story sb --------------------- */
 .section-story {
   display: flex;
