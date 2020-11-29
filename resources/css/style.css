@@ -156,22 +156,23 @@ suggestions here: */
 }
 
 .section-hero_heading {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #fff;
   margin-top: 2rem;
 }
 
 .section-hero_paragraph {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 200;
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.section-hero_btn {
-
+.section-hero_btn{
+  transition: background-color .2s, color .2s;
 }
+
 
 
 /*
@@ -424,7 +425,7 @@ h1 {
 .section-team__contact button {
   padding: 0.9rem 3rem;
   margin-top: 2rem;
-  min-width: 12rem;
+  min-width: 10rem;
   height: 4rem;
   text-align: center;
   letter-spacing: 0.1rem;
@@ -435,10 +436,16 @@ h1 {
   border-radius: 0px;
   color: #01e1d1;
 }
-.section-team__contact button:hover {
-  color: white;
-  border: 1px solid #68dacd;
-  background: #68dacd;
+
+.section-team__contact button {
+  transition: color .2s, background-color .2s, border .2s;
+}
+
+.section-team__contact button:hover,
+.section-hero_btn:hover {
+  background-color: rgba(0, 255, 255, 0.4);
+  border: 1px solid rgba(0, 255, 255, 0.4);
+  color: #fff;
 }
 
 /* ----------------------------------------------------- */
